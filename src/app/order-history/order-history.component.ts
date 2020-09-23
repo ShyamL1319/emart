@@ -13,7 +13,7 @@ const usersModule = require ('../manage-users-cart');
 })
 export class OrderHistoryComponent implements OnInit {
   hasLoggedIn: Boolean = false;
-  ordersInHistory: String[] = [];
+  ordersInHistory:any[];
   noOrder: Boolean = false;
   constructor(private cartManagementService: CartManagementService, private meta: Meta, private title:Title) {
 

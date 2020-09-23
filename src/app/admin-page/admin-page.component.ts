@@ -26,7 +26,7 @@ export class AdminPageComponent implements OnInit {
   ngOnInit() {
     this.getAdminName();
     const data = usersModule.getUserData();
-    if(data.email === 'shyam.admin@gmail.com') {
+    if(data.email === 'shyam@gmail.com') {
       this.isAdmin = true ;
     }
   }
