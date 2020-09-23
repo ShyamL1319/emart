@@ -1,6 +1,6 @@
 export const GlobalPaths = Object.freeze({
-    CAT_PATH :     'https://github.com/shyamlal98/emart/assets/data/categories.json',
-    POP_PATH :     'https://github.com/shyamlal98/emart/assets/data/most_popular.json',
+    CAT_PATH :     'https://ibnmhmd.github.io/Shopping-Cart/assets/data/categories.json',
+    POP_PATH :     'https://ibnmhmd.github.io/Shopping-Cart/assets/data/most_popular.json',
     REC_PATH :     'https://ibnmhmd.github.io/Shopping-Cart/assets/data/recommendations.json',
     MEN_PATH :     'https://ibnmhmd.github.io/Shopping-Cart/assets/data/mens_categories.json',
     ELEC_PATH :    'https://ibnmhmd.github.io/Shopping-Cart/assets/data/electronics.json',

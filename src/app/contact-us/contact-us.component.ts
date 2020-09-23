@@ -16,7 +16,7 @@ export class ContactUsComponent implements OnInit {
   created: Boolean = false;
   constructor(private meta: Meta, private title:Title) {
       // Sets the <title></title>
-      title.setTitle('Shopping-Cart: Contact Us');
+      title.setTitle('emart: Contact Us');
 
      // Sets the <meta> tag for the page
      meta.addTags([
