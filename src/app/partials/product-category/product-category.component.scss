@@ -1,0 +1,18 @@
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+{
+    color:aquamarine;
+    border-color: #2b2dc9;
+    background-color: #2b2dc9;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.child
+{
+ background-color: darkkhaki; 
+}
+
+.child:focus, .child:hover
+{
+    color: rgb(142, 211, 63);
+}

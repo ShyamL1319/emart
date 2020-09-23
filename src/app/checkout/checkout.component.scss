@@ -1,0 +1,64 @@
+.form-control
+{
+    border: 1px solid #404ace;
+    border-radius: 0px ;
+    height: 45px ;
+}
+
+.radio-group
+{
+    .radio-button
+    {
+        margin-left: 0.5em;
+    }
+
+
+}
+
+#errmsg, #cvvmsg, #cardmsg, #monthmsg, #yearmsg
+{
+    color: red;
+}
+.setAddress
+{
+    background: rgb(139, 115, 115);
+    border-radius: 4px;
+}
+
+.edit
+{
+    &:hover
+    {
+        color: greenyellow;
+        cursor: pointer;
+    }
+}
+
+.remove
+{
+    position: absolute;
+    bottom: 0.5em;
+    right: 3em;
+    &:hover{
+        cursor: pointer;
+        color: greenyellow;
+    }
+}
+.summary-block
+{
+    padding-bottom: 1em;
+}
+
+.addressBlock
+{
+    padding-bottom: 0.4em;
+}
+
+.fa-check
+{
+    color: green;
+}
+
+.placeOrder {
+    padding-bottom: 2em; 
+}

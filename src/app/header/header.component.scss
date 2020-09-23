@@ -1,0 +1,106 @@
+.navbar
+{
+    border-radius: 5px !important;
+    .logo
+    {
+        width: 80px;
+        height: 60px;
+        margin-right: 5px !important;
+    }
+
+    .bold
+    {
+        font-weight: bold;
+        color: white;
+    
+        a
+        {
+            color: white;
+           
+        }
+    }
+    .fa-shopping-cart
+    {
+        font-size: 2rem !important;
+        color: white;
+    }
+
+    .fa-shopping-cart:hover,  .fa-shopping-cart:focus
+    {
+        color: darkturquoise; 
+    }
+   .badge
+   {
+       background-color: darkturquoise;
+       color: black;
+       position: absolute;
+       top: 0.5em;
+       left: 2em;
+       z-index: 100;
+   }
+   .badge:hover
+   {
+       cursor: pointer;
+       color: white;
+       background-color: darkturquoise;
+   }
+   .shift
+   {
+       margin-right: 0.5em;
+   }
+   .shift1{
+       margin-top:0.5rem !important;
+   }
+}
+
+.navbar-inverse
+{
+    background-color:#3533b7 !important;
+    border-color: #3533b7 !important; 
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    color: darkturquoise !important;
+    background-color: inherit !important;
+}
+
+.bold a:hover, .bold a:focus
+{
+    color: darkturquoise !important;
+    font-size: 2vw;
+}
+
+.slideInRight
+{
+    min-width: 20em !important;
+}
+
+.join{
+    &:hover{
+        cursor: pointer;
+        color: rgb(33, 11, 230);
+
+    }
+}
+
+.validEmail
+{
+    color: darkred;
+    text-align: center;
+}
+
+.open
+{
+        display: block;
+}
+.admin{
+    font-size: 90%;
+
+    &:hover{
+        cursor: pointer;
+        color: black;
+    }
+}
+.bgr{
+    background-color: rgba(45, 209, 132, 1) !important;
+}

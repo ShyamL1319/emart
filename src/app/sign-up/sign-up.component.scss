@@ -1,0 +1,49 @@
+.wrapper
+{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #400bd3;
+    border-radius: 5px;
+    
+}
+.inner-box
+{
+    padding: 1em;
+    background:  rgba(10, 34, 175,0.3);
+    .form-control
+    {
+        height: 45px;
+        border-radius: 0px;
+        background-color: beige;
+    }
+
+    .note
+    {
+        padding-top: 1em;
+        a
+        {
+            &:hover
+            {
+                cursor: pointer;
+                color: cornflowerblue;
+            }
+        }
+    }
+}
+.have-account
+{
+    padding-top: 1em;
+    border-top: 1px solid gray;
+    font-weight: bold;
+}
+
+.sign-in
+{
+    font-weight: bold;
+    &:hover
+    {
+        cursor: pointer;
+        color: cornflowerblue;
+
+    }
+}
