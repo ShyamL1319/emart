@@ -1,14 +1,14 @@
 #Emart (MEAN Stack eShop) 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5 and developed with latest angular version `Angular 10` .
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4 and developed with latest angular version `Angular 10` .
 
 It's a complete shopping cart project with the following functionalities :- 
 
 - Products (men / electronics) and categories listing.  
 - Adding products to the cart.  
 - Full and quick product view with product information.
-- Complete cart calculations with 5% VAT.  
+- Complete cart calculations with 18% GST.  
 - User can edit/delete items in the cart.
 - User can set shipping address and checkout (place order of) items in the cart.
 - User can register and log in and manage his/her cart.
@@ -37,3 +37,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# emart
